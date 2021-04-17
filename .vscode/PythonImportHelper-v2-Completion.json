@@ -1,0 +1,137 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "calculateArea",
+        "kind": 2,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "def calculateArea(height, width):\n    area = height * width\n    print(area)\ncalculateArea(7, 67)\ndef areaSquare(length):\n    result = length**2\n    print(\"Area of square is \", result)\nareaSquare(5)\ndef areaSquare(length):\n    result = length**2",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "areaSquare",
+        "kind": 2,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "def areaSquare(length):\n    result = length**2\n    print(\"Area of square is \", result)\nareaSquare(5)\ndef areaSquare(length):\n    result = length**2\n    return result\nareaSquare(5)\nsquareResult = areaSquare(5)\nprint(squareResult)",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "areaSquare",
+        "kind": 2,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "def areaSquare(length):\n    result = length**2\n    return result\nareaSquare(5)\nsquareResult = areaSquare(5)\nprint(squareResult)\nx = calculateArea(5, 7)\nprint(x)\ndef doubleReturn(height, width):\n    area = height * width",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "doubleReturn",
+        "kind": 2,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "def doubleReturn(height, width):\n    area = height * width\n    perimiter = 2 * (height + width)\n    return area, perimiter\ndoubleReturn(5, 7)\n(35, 24)\ny = doubleReturn(5, 7)\ny\ntype(y)\nareaRectangle, periRectangle = y",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "double",
+        "kind": 2,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "def double(number):\n    return number * number\ndef double(number):\n    return number * 2\ndouble(5)\ndouble(15)\ndef getArea(height, width):\n    return height * width\ngetArea(5, 6)",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "double",
+        "kind": 2,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "def double(number):\n    return number * 2\ndouble(5)\ndouble(15)\ndef getArea(height, width):\n    return height * width\ngetArea(5, 6)",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "getArea",
+        "kind": 2,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "def getArea(height, width):\n    return height * width\ngetArea(5, 6)",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "num = 0\nwhile True:\n    if num == 5:\n        break\n    print(num)\n    num = num + 1\nfor i in range(1, 11):\n    if i % 2 == 0:\n        continue\n    print(i)",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "num = 15\nnum ** 2\nnum = 7\nnum ** 23\nnum ** 2 + 100\nnum = num / 2\nprint(\"Hello\")\nmath.sqrt(324)\ndef calculateArea(height, width):\n    area = height * width",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "num = 7\nnum ** 23\nnum ** 2 + 100\nnum = num / 2\nprint(\"Hello\")\nmath.sqrt(324)\ndef calculateArea(height, width):\n    area = height * width\n    print(area)\ncalculateArea(7, 67)",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "num = num / 2\nprint(\"Hello\")\nmath.sqrt(324)\ndef calculateArea(height, width):\n    area = height * width\n    print(area)\ncalculateArea(7, 67)\ndef areaSquare(length):\n    result = length**2\n    print(\"Area of square is \", result)",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "squareResult",
+        "kind": 5,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "squareResult = areaSquare(5)\nprint(squareResult)\nx = calculateArea(5, 7)\nprint(x)\ndef doubleReturn(height, width):\n    area = height * width\n    perimiter = 2 * (height + width)\n    return area, perimiter\ndoubleReturn(5, 7)\n(35, 24)",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "x = calculateArea(5, 7)\nprint(x)\ndef doubleReturn(height, width):\n    area = height * width\n    perimiter = 2 * (height + width)\n    return area, perimiter\ndoubleReturn(5, 7)\n(35, 24)\ny = doubleReturn(5, 7)\ny",
+        "detail": "class 5.class5",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "class 5.class5",
+        "description": "class 5.class5",
+        "peekOfCode": "y = doubleReturn(5, 7)\ny\ntype(y)\nareaRectangle, periRectangle = y\nareaRectangle\nperiRectangle\narea, peri = doubleReturn(5, 7)\narea\nperi\ndef double(number):",
+        "detail": "class 5.class5",
+        "documentation": {}
+    }
+]
